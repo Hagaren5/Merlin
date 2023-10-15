@@ -3,6 +3,7 @@ El bug a comentar es el siguiente:
 En la página principal de Zara: https://www.zara.com/es/ca/
 
 Nos dirigimos al apartado de camisas de hombre:
+
     https://www.zara.com/es/es/hombre-camisas-l737.html?v1=2297813
 
 Una vez aquí haciendo scroll vemos como todas las camisas tienen nombre y precio a excepción de dos camisas blancas que solo tienen precio, estando en la vista por defecto:
@@ -10,15 +11,27 @@ Una vez aquí haciendo scroll vemos como todas las camisas tienen nombre y preci
 ![Zara camisa bug](./image/zara_camisa_bug.PNG)
 
 y otras sin descripción completamente:
-Véase foto: "zara camisas no descripcion.PNG"
 
-Si cambiamos de vista como se ve en la foto "vista doble fila.PNG" arriba a la derecha hemos seleccionado la segunda vista del closet, vemos como el caso de las camisas sin descripción se soluciona y aparece su descripción con el precio
-pero en el caso de las camisas sin nombre no aparece.
+![Zara camisas no descripción](./image/zara_camisas_no_descripcion.PNG)
+
+Si cambiamos de vista 
+
+![Zara vista doble fila](./image/vista_doble_fila.PNG)
+
+arriba a la derecha hemos seleccionado la segunda vista del closet, vemos como el caso de las camisas sin descripción se soluciona y aparece su descripción con el precio pero en el caso de las camisas sin nombre no aparece.
 
 
-Entramos al detalle de una camisa cualquiera "zara camisa detail expected.PNG" y lo comparamos con la camisa blanca "zara camisa detail bug.PNG"
+Entramos al detalle de una camisa cualquiera
 
-y efectivamente comprobamos que es un fallo del producto como también vemos en la consola de desarrollador "error en consdev.PNG"
+![Zara camisa detail expected](./image/zara_camisa_detail_expected.PNG)
+
+y lo comparamos con la camisa blanca 
+
+![Zara camisa detail bug](./image/zara_camisa_detail_bug.PNG)
+
+y efectivamente comprobamos que es un fallo del producto como también vemos en la consola de desarrollador
+
+![Error en consola](./image/error_en_consdev.PNG)
 
 TO DO: Arreglar los productos para que muestren correctamente su nombre como en las demás prendas.
 
