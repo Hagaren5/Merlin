@@ -6,14 +6,18 @@ Nos dirigimos al apartado de camisas de hombre:
     https://www.zara.com/es/es/hombre-camisas-l737.html?v1=2297813
 
 Una vez aquí haciendo scroll vemos como todas las camisas tienen nombre y precio a excepción de dos camisas blancas que solo tienen precio, estando en la vista por defecto:
-Véase foto: "zara camisa bug.PNG"
+
+![Zara camisa bug](./image/zara_camisa_bug.PNG)
+
 y otras sin descripción completamente:
 Véase foto: "zara camisas no descripcion.PNG"
+
 Si cambiamos de vista como se ve en la foto "vista doble fila.PNG" arriba a la derecha hemos seleccionado la segunda vista del closet, vemos como el caso de las camisas sin descripción se soluciona y aparece su descripción con el precio
 pero en el caso de las camisas sin nombre no aparece.
 
 
 Entramos al detalle de una camisa cualquiera "zara camisa detail expected.PNG" y lo comparamos con la camisa blanca "zara camisa detail bug.PNG"
+
 y efectivamente comprobamos que es un fallo del producto como también vemos en la consola de desarrollador "error en consdev.PNG"
 
 TO DO: Arreglar los productos para que muestren correctamente su nombre como en las demás prendas.
