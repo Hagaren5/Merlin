@@ -11,7 +11,7 @@ Al llegar a la página de ayuda nos desplazamos hacia abajo.
 Al pasar las fotos y llegar a los textos de las propias ayudas deberíamos ver como el título junto con los menús del encabezado, o bien desaparecen, 
 o bien desvanecen su background 
 
-![zara expected](./image/zara_expected.png)
+![zara expected](./image/zara_expected.PNG)
 
 Pero de la forma en que se ve queda el título con letras por detrás como se ve en la foto
 
