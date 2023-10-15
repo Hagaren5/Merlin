@@ -1,9 +1,7 @@
 import {
   AUTOMATION_TEXT,
   LINK_WIKIPEDIA,
-  TITLE_WIKIPEDIA,
-} from '../../support/constants';
-// import { constants } from '../../support/constants'
+  } from '../../support/constants';
 
 describe('Question 2: ', () => {
   it('Search for first automation year', () => {
@@ -15,7 +13,7 @@ describe('Question 2: ', () => {
 
     cy.origin('https://es.wikipedia.org', () => {
       cy.get('h1#firstHeading').invoke('text').should('eq', 'Automatización');
-      cy.title().should('include', 'Automat' /*TITLE_WIKIPEDIA*/);
+      cy.title().should('include', 'Automat' );
       cy.contains('p', 'En 1771').should('contain', '1785');
       cy.screenshot('Wikipedia first automation year');
     });
