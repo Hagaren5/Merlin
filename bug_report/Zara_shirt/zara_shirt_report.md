@@ -36,3 +36,7 @@ y efectivamente comprobamos que es un fallo del producto como también vemos en 
 TO DO: Arreglar los productos para que muestren correctamente su nombre como en las demás prendas.
 
 Prioridad: Media, si bien no afecta a la compra de las camisas ni a su funcionamiento, es una experiencia directa de la compra y no permite buscar el producto desde un buscador.
+
+Impacto: Bajo/Medio, si bien no es un funcionamiento importante, si escalase a más productos no podrían buscarse y eso podría generar un impacto en las ventas.
+
+Probabilidad ocurrencia: Siempre.

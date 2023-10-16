@@ -16,7 +16,7 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 import './constants'
-import './functions'
+import './classes'
 import './user'
 
 // Alternatively you can use CommonJS syntax:

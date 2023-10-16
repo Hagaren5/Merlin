@@ -1,9 +1,9 @@
-// WIKIPEDIA
+// WIKIPEDIA searching strings
 export const AUTOMATION_TEXT = "automatización"
 export const LINK_WIKIPEDIA = "Automatización - Wikipedia"
 
 
-// API TESTING
+// API TESTING URL's
 export const POSTENDPOINT = 'https://petstore.swagger.io/v2/user/createWithArray'
 export const GETUSERENDPOINT = 'https://petstore.swagger.io/v2/user'
 export const GETPETENDPOINT = 'https://petstore.swagger.io/v2/pet/findByStatus?status=sold'

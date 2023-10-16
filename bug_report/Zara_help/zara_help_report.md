@@ -23,9 +23,13 @@ TO DO: Revisar si es un bug o una feature hecha expresamente, en caso de ser un 
 
 - Que el barckground del título con el encabezado se vuelva transparente a medida que pasa por detrás.
 
-Prioridad: Baja, no influye en ninguna característica principal de la página, puedes seguir utilizando el menú de ayuda.
+Prioridad: Baja, no influye en ninguna característica principal de la página, puedes seguir utilizando el menú de ayuda. El único inconveniente es experiencia de usuario visual así que no es prioritario.
 
-El único inconveniente es experiencia de usuario visual así que no es prioritario.
+Impacto: Bajo, como comento anteriormente no afecta al funcionamiento de la página ni es nada core, es experiencia de usuario
+
+Probabilidad ocurrencia: Siempre.
+
+
 
 
 
